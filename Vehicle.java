@@ -22,4 +22,6 @@ public abstract class Vehicle {
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
+    public abstract String doStuff();
 }
