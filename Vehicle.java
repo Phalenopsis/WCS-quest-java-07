@@ -1,6 +1,6 @@
 public abstract class Vehicle {
-    String brand;
-    int kilometers;
+    protected String brand;
+    protected int kilometers;
 
     public Vehicle (String brand, int kilometers) {
         this.brand = brand;
